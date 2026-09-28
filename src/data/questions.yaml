@@ -1,0 +1,41 @@
+teams: [Команда 1, Команда 2]
+
+rounds:
+  - mode: simple
+    question: Что всегда лежит на кухонном столе?
+    rows:
+      - { text: "Хлеб", points: 60 }
+      - { text: "Молоко", points: 50 }
+      - { text: "Сахар", points: 40 }
+      - { text: "Масло", points: 30 }
+      - { text: "Сметана", points: 20 }
+      - { text: "Яйцо", points: 10 }
+  - mode: double
+    question: Что есть в любом доме?
+    rows:
+      - { text: "Окно", points: 55 }
+      - { text: "Дверь", points: 50 }
+      - { text: "Крыша", points: 40 }
+      - { text: "Стена", points: 30 }
+      - { text: "Пол", points: 20 }
+      - { text: "Лестница", points: 10 }
+  - mode: triple
+    question: На чём можно доехать до работы?
+    rows:
+      - { text: "Машина", points: 60 }
+      - { text: "Велосипед", points: 45 }
+      - { text: "Автобус", points: 40 }
+      - { text: "Поезд", points: 30 }
+      - { text: "Самолёт", points: 20 }
+      - { text: "Лодка", points: 10 }
+  - mode: vice-versa
+    question: Что берут с собой на пляж?
+    rows:
+      - { text: "Ласты", points: 15 }
+      - { text: "Зонт от солнца", points: 30 }
+      - { text: "Надувной матрас", points: 60 }
+      - { text: "Полотенце", points: 120 }
+      - { text: "Крем от загара", points: 180 }
+      - { text: "Шлёпанцы", points: 240 }
+  # Табло в большой игре не используется: вместо карточек — обратный отсчёт.
+  - mode: big

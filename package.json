@@ -1,0 +1,30 @@
+{
+  "name": "100k1-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "kiosk": "pnpm build && caffeinate -dimsu pnpm preview"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^4.0.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/js-yaml": "^4.0.9",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "puppeteer-core": "^25.12.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "~5.9.0",
+    "vite": "^7.0.0"
+  }
+}

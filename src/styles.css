@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('/fonts/PT_Sans-Web-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'PT Sans';
+  src: url('/fonts/PT_Sans-Web-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
+
+@theme {
+  --color-ink: #16202e;
+  --color-slate: #4a6b8a;
+  --color-gold: #f2c230;
+  --color-gold-dark: #c79a18;
+  --color-brick: #9e3a2b;
+  --color-teal-dark: #14535f;
+  --color-x-red: #b33025;
+  --color-scrim: #1e2647;
+  --font-sans: 'PT Sans', sans-serif;
+  --radius-card: 14px;
+  --radius-plaque: 10px;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+  cursor: none;
+  font-family: var(--font-sans);
+  user-select: none;
+}

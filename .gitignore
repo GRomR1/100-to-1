@@ -1,0 +1,19 @@
+# зависимости
+node_modules/
+
+# сборка
+dist/
+*.tsbuildinfo
+.vite/
+
+# черновики и референсы, из которых рисовали (см. AGENTS.md)
+.work/
+.archive/
+
+# окружение
+.env
+.env.*
+*.local
+
+# OS
+.DS_Store
